@@ -1,0 +1,26 @@
+{
+  "name": "roocode-tips-tricks",
+  "version": "1.0.0",
+  "description": "Tools and utilities for RooCode, including handoff management",
+  "main": "menu.js",
+  "scripts": {
+    "postinstall": "node menu.js",
+    "menu": "node menu.js",
+    "start": "node menu.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlwainwright/RooCode-Tips-Tricks.git"
+  },
+  "keywords": [
+    "roocode",
+    "handoff",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlwainwright/RooCode-Tips-Tricks/issues"
+  },
+  "homepage": "https://github.com/jlwainwright/RooCode-Tips-Tricks#readme"
+}

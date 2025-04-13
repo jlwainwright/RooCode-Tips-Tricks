@@ -2,6 +2,25 @@
 
 A collection of files designed to supercharge your Roo Code experience and maximize productivity.
 
+## Interactive Menu System
+
+The repository now includes an easy-to-use interactive menu system for accessing all tools and templates. After cloning the repository, the menu automatically launches to help you:
+
+- Install the handoff manager
+- Create new handoff documents
+- Generate workflow diagrams
+- Extract knowledge from existing handoffs
+- Browse templates for different documentation needs
+- Set up Boomerang mode for task scheduling
+- Access documentation and guides
+
+**To manually launch the menu system:**
+```bash
+npm start
+# or
+node menu.js
+```
+
 ## [Roo Code Documentation](personal_roo_docs/)
 A comprehensive collection of documentation resources for Roo Code, organized by technical depth and audience:
 
@@ -50,12 +69,35 @@ During extended debugging sessions, it may feel frustrating to start over with a
 
 **Compatibility Note:** Optimized for Claude 3 models with thinking enabled
 
+## Enhanced Handoff Templates
+
+The repository now includes advanced templates for creating more comprehensive handoff documents:
+
+- **Code Health Metrics**: Track test coverage, linting status, documentation coverage, and technical debt
+- **API Catalog**: Document API endpoints, their status, authentication requirements, and response times
+- **Database Schema Changes**: Track changes to database structures, migrations, and indexes
+- **Dependency Changelog**: Record added, updated, and removed dependencies
+- **Environment Configuration**: Document changes to environment variables and required services
+- **Testing Status**: Track unit, integration, and end-to-end test coverage
+
+## Automation Scripts
+
+New scripts to improve the handoff workflow:
+
+- **Workflow Diagram Generator**: Create standardized Mermaid diagrams for common architectural patterns
+- **Next Handoff Number**: Automatically determine the correct number for new handoff documents
+- **Knowledge Extractor**: Consolidate knowledge from multiple handoffs into a searchable knowledge base
+- **Project Health Dashboard**: Generate visual representations of project health metrics over time
+
 ## [Large File Handling Cheatsheet](cheatsheets/llm-large-file-cheatsheet.md)
 A practical cheatsheet of one-liners and code snippets in Python, Bash, Node.js, and PowerShell for handling large files that would normally exceed LLM context windows. Extract exactly what you need without overwhelming your LLM. This file is designed to be given to the LLM as a reference and to remind it how to do some things.
 
 ## [RooArmy - **A fun project, not a useable system** ](roo-army/) 
 A sophisticated system for creating and managing professional custom modes in Roo AI Assistant. RooArmy transforms Roo from a general-purpose assistant into a collection of specialized assistants for specific software development roles, with an intelligent assessment system that recommends the optimal configuration for your project.
 
+## Boomerang Mode
+
+The repository now supports easy setup of [Boomerang Mode](https://docs.roocode.com/features/boomerang-tasks), which allows you to schedule tasks for future execution. Use the interactive menu to add Boomerang Mode to your `.roomodes` file.
 
 ## Cheatsheets
 
@@ -76,7 +118,6 @@ The repository contains three related directories for handoff functionality:
 
 Advanced custom mode frameworks:
 - **[RooArmy](roo-army/)**: Create role-specialized Roo assistants for professional development teams
-
 
 ## License
 
